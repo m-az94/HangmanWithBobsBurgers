@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Word Guess Game </title>
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script> 
+       <!--script type="text/javascript" src="assets/javascript/game.js"></script-->
+       <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+       <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    </head>
+    <body>
+            <!-- Website -->
+            <div class="jumbotron pagehead">
+                <div class="container">
+                 <div class="row">
+                        <div class="col-md-6">
+                                <h1 class="display-3">Hangman with  </h1>
+                                <img src="assets/images/BobsBurgers.png">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row instructions">
+                                <p>How to Play: </p>
+                                <p>Enter letters to uncover the mystery word. But Don't get too carried away. You only have 5 wrong guesses. Hit Enter once you think you're done! GOOD LUCK!</p>
+                            </div>
+                            <div class="row play">
+                                <p>Smack your face against the keyboard to start!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mid-->
+            <div class="container game">
+                <div class="row">
+                    <div class="col-md-8">
+                            <h1 id="gameTitle"> Guess the Word! </h1>
+                            <h2 id="hiddenWord"></h2>
+                            <p id="guess"></p>
+                            <p id="hint"> Hint: Bob's Nemesis</p>
+                    </div>
+                    <div class="col-sm-4">
+                            <h3 id="scoreTitle"> Score </h3>
+                            <div id="score"></div>
+                    </div>
+                </div>
+            </div>
+            <!--Footer-->
+            <footer>
+                <p>Copyright &copy Maria Azam 2019</p>
+                <embed id="music" src="assets/Bob's burgers theme song.mp3" loop></embed>
+            </footer>
+
+            <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+    </body>
+</html>

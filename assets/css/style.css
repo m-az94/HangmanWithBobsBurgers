@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC");
+*{
+    font-family: 'Amatic SC', cursive;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("../images/burgerbg.jpg");
+}
+.pagehead{
+    background-color: #f4e140;
+    padding:0px;
+    margin: 0px;
+    border-radius: 0px;
+    border-bottom: 10px solid #eb232d;
+    
+}
+.lead a{
+    background-color: #eb232d;
+}
+.display-3 {
+    font-size: 60px;
+    font-family: 'Amatic SC', cursive;
+    color: #eb232d;
+}
+img{
+    width: 100%;
+}
+.instructions {
+    font-family: 'Amatic SC', cursive;
+    padding: 20px;
+    font-size: 30px;
+    opacity: 200%;
+    border-style: solid;
+    border-color: #eb232d;
+    margin-top: 20px;
+    width: 90%;
+    float: right;
+}
+.play{
+    font-family: 'Amatic SC', cursive;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    float: right;
+}
+.btn {
+    background-color: #eb232d;
+    margin-left: 10px;
+}
+
+/* Game */
+.game {
+    padding:15px;
+    background-color:#f4e140;
+    border: 10px solid #eb232d;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+#scoreTitle, #gameTitle {
+    font-size: 50px;
+}
+
+#hiddenWord, #score {
+    font-size: 40px;
+}
+
+#hint, #guess{
+    font-size: 30px;
+}
+
+/*Sticky Footer*/
+footer {
+    background:#f4e140;
+    height: 50px;
+    width: 100%;
+    overflow: auto;
+    border-top: 10px solid #eb232d;
+    padding-top: 5px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    color: #eb232d;
+    font-family: 'Amatic SC', cursive;
+}

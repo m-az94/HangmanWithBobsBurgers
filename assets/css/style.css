@@ -28,7 +28,7 @@ img{
 .instructions {
     font-family: 'Amatic SC', cursive;
     padding: 20px;
-    font-size: 30px;
+    font-size: 25px;
     opacity: 200%;
     border-style: solid;
     border-color: #eb232d;
@@ -38,14 +38,11 @@ img{
 }
 .play{
     font-family: 'Amatic SC', cursive;
+    color: #eb232d;
     padding: 20px;
     font-size: 30px;
     text-align: center;
     float: right;
-}
-.btn {
-    background-color: #eb232d;
-    margin-left: 10px;
 }
 
 /* Game */

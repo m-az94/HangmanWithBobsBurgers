@@ -56,15 +56,15 @@ img{
     text-align: center;
 }
 
-#scoreTitle, #gameTitle {
-    font-size: 50px;
-}
-
-#hiddenWord, #score {
+.sideTitle, #gameTitle {
     font-size: 40px;
 }
 
-#hint, #guess{
+#hiddenWord, .sideDetail {
+    font-size: 30px;
+}
+
+ #guess{
     font-size: 30px;
 }
 
